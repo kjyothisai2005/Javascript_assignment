@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Adults Plain Cotton T-shirt</p>
+    <p>Price: $7.99</p>
+    <button>Add to cart</button>
+    <button>Buy now</button>
+    <br><br>
+    <button onclick="(qt>10)?alert('Cart is full'):qt+=4">+4</button>
+    <button onclick="(qt>10)?alert('Cart is full'):qt+=5">+5</button>
+    <br><br>
+    <button onclick="(qt<0)?alert('Not enough items in the cart'):qt--">Remove from cart</button>
+    <br><br>
+    <button onclick="(qt<0)?alert('Not enough items in the cart'):qt-=2">-2</button>
+    <button onclick="(qt<0)?alert('Not enough items in the cart'):qt-=3">-3</button>
+    <script>
+        var qt=0;
+        console.log(qt);
+    </script>
+</body>
+</html>
